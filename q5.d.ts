@@ -439,7 +439,7 @@ createCanvas(200);
 			height: number; //-
 			updatePixels(): void; //-
 			loadPixels(): void; //-
-			get(x: number, y: number): Color; //-
+			get(x: number, y: number): number[]; //-
 			set(x: number, y: number, color: Color): void; //-
 		}
 	}
