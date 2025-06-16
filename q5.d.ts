@@ -437,6 +437,10 @@ createCanvas(200);
 		interface Image {
 			width: number; //-
 			height: number; //-
+			updatePixels(): void; //-
+			loadPixels(): void; //-
+			get(x: number, y: number): Color; //-
+			set(x: number, y: number, color: Color): void; //-
 		}
 	}
 
