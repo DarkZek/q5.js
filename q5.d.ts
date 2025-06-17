@@ -441,6 +441,7 @@ createCanvas(200);
 			loadPixels(): void; //-
 			get(x: number, y: number): number[]; //-
 			set(x: number, y: number, color: Color): void; //-
+			filter(filter: number, value?: number): void; //-
 		}
 	}
 
